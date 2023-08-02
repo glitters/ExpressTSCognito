@@ -7,7 +7,7 @@ import AuthController from './controllers/auth.controller'
 import ProtectedController from './controllers/protected.controller';
 
 const app = new App({
-    port: 5000,
+    port: 8000,
     controllers: [
         new HomeController(),
         new AuthController(),
