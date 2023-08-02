@@ -1,5 +1,5 @@
-import express from 'express'
-import { Application } from 'express'
+import express from 'express';
+import { Application } from 'express';
 
 class App {
     public app: Application

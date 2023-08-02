@@ -1,5 +1,5 @@
-import * as express from 'express'
-import { Request, Response } from 'express'
+import * as express from 'express';
+import { Request, Response } from 'express';
 import { body, validationResult } from 'express-validator';
 import Cognito from '../services/cognito.service';
 

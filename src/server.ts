@@ -1,9 +1,7 @@
-import App from './app'
-
-import * as bodyParser from 'body-parser'
-
-import HomeController from './controllers/home.controller'
-import AuthController from './controllers/auth.controller'
+import App from './app';
+import * as bodyParser from 'body-parser';
+import HomeController from './controllers/home.controller';
+import AuthController from './controllers/auth.controller';
 import ProtectedController from './controllers/protected.controller';
 
 const app = new App({

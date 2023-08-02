@@ -1,5 +1,5 @@
-import * as express from 'express'
-import { Request, Response } from 'express'
+import * as express from 'express';
+import { Request, Response } from 'express';
 import Cognito from '../services/cognito.service';
 
 class HomeController {

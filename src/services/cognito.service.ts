@@ -1,5 +1,5 @@
 import AWS from 'aws-sdk';
-import crypto from 'crypto'
+import crypto from 'crypto';
 
 export default class Cognito {
   private config = {

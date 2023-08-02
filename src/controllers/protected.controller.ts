@@ -1,6 +1,5 @@
-import * as express from 'express'
-import { Request, Response } from 'express'
-
+import * as express from 'express';
+import { Request, Response } from 'express';
 import AuthMiddleware from '../middleware/auth.middleware';
 
 class ProtectedController {
