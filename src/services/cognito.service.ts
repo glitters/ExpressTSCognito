@@ -4,10 +4,11 @@ import crypto from 'crypto'
 export default class Cognito {
   private config = {
     apiVersion: '2016-04-18',
-    region: 'ca-central-1',
+    region: 'ap-southeast-1',
   }
-  private secretHash = '10j74r0nsekujafhd777t01omagltb34m16mvrb8e3v6rfop7ud3'
-  private clientId = '7lkobomofk4vsi2iktb0mdmaeq';
+  private secretHash = '10j74r0nsekujafhd777t01omagltb34m16mvrb8e3v6rfop7ud3';
+  //private secretHash = '';
+  private clientId = '2tqtf10aa36j23j7dahej17mb1';
 
   private cognitoIdentity;
 
