@@ -6,9 +6,9 @@ export default class Cognito {
     apiVersion: '2016-04-18',
     region: 'ap-southeast-1',
   }
-  private secretHash = '10j74r0nsekujafhd777t01omagltb34m16mvrb8e3v6rfop7ud3';
-  //private secretHash = '';
-  private clientId = '2tqtf10aa36j23j7dahej17mb1';
+  //private secretHash = '10j74r0nsekujafhd777t01omagltb34m16mvrb8e3v6rfop7ud3';
+  private secretHash = '19i2orurr1nlc70qmv00aaepnuni5h6mfbhgd6hmp8doupl66p3c';
+  private clientId = '7b75cm0bfj0e6flqhkm6glicvm';
 
   private cognitoIdentity;
 

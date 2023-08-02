@@ -29,12 +29,13 @@ class AuthController {
       console.log(req.body)
       const { username, password, email, gender, birthdate, name, family_name } = req.body;
       let userAttr = [];
+      userAttr.push({ Name: 'username', Value: username});
+      userAttr.push({ Name: 'password', Value: password});
       userAttr.push({ Name: 'email', Value: email});
       userAttr.push({ Name: 'gender', Value: gender});
       userAttr.push({ Name: 'birthdate', Value: birthdate.toString()});
       userAttr.push({ Name: 'name', Value: name});
       userAttr.push({ Name: 'family_name', Value: family_name});
-
 
       let cognitoService = new Cognito();
       cognitoService.signUpUser(username, password, userAttr)
